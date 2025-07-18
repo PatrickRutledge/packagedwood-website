@@ -4,3 +4,7 @@ node_modules/
 .vscode/
 *.log
 Thumbs.db
+~$*
+*.new
+*.tmp
+*.bak
