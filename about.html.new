@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Learn about our premium wholesale wood products company. Discover our commitment to quality, sustainability, and excellent service in wood product distribution." />
+  <meta name="keywords" content="about us, wood products company, wholesale distribution, sustainable wood products" />
+  
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://yoursite.com/about.html" />
+  <meta property="og:title" content="About Our Premium Wood Products Company" />
+  <meta property="og:description" content="Learn about our premium wholesale wood products company. Discover our commitment to quality, sustainability, and excellent service." />
+  <meta property="og:image" content="https://yoursite.com/images/amp.png" />
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:url" content="https://yoursite.com/about.html" />
+  <meta name="twitter:title" content="About Our Premium Wood Products Company" />
+  <meta name="twitter:description" content="Learn about our premium wholesale wood products company. Discover our commitment to quality, sustainability, and excellent service." />
+  <meta name="twitter:image" content="https://yoursite.com/images/amp.png" />
+
+  <!-- Canonical URL -->
+  <link rel="canonical" href="https://yoursite.com/about.html" />
+  
+  <title>About Our Premium Wood Products Company | Wholesale Products</title>
+  <link rel="stylesheet" href="assets/styles.css" />
+</head>
+<body>
+  <header>
+    <h1>About Our Company</h1>
+    <p>Leading provider of premium wood products for wholesale distribution.</p>
+  </header>
+
+  <nav>
+    <a href="index.html">Home</a> |
+    <a href="contact.html">Contact</a>
+  </nav>
+
+  <main>
+    <section class="about-section">
+      <h2>Our Story</h2>
+      <p>We are dedicated to providing high-quality wood products for various applications, from artisanal pizza making to premium smoking woods for BBQ enthusiasts. Our commitment to quality and sustainability drives everything we do.</p>
+      
+      <h2>Our Values</h2>
+      <ul>
+        <li><strong>Quality:</strong> We source only the finest materials for our products.</li>
+        <li><strong>Sustainability:</strong> Our wood products are responsibly sourced and processed.</li>
+        <li><strong>Service:</strong> We provide exceptional support to our distribution partners.</li>
+        <li><strong>Innovation:</strong> We continuously improve our products and processes.</li>
+      </ul>
+
+      <h2>Product Excellence</h2>
+      <p>Each of our product lines is carefully developed to meet specific customer needs:</p>
+      <ul>
+        <li><strong>Pizza Wood:</strong> Specially selected for optimal heat and flavor in pizza ovens</li>
+        <li><strong>Smoking Wood:</strong> Perfect for authentic BBQ flavor</li>
+        <li><strong>Firewood:</strong> Convenient, clean-burning options for every need</li>
+        <li><strong>Charcoal:</strong> High-quality for consistent cooking results</li>
+        <li><strong>Firestarters:</strong> Reliable and easy to use</li>
+      </ul>
+
+      <h2>Distribution Network</h2>
+      <p>We work with leading retailers and distributors across the country to ensure our products are readily available when and where they're needed. Our flexible distribution model supports:</p>
+      <ul>
+        <li>Seasonal promotions</li>
+        <li>Trade show events</li>
+        <li>Year-round stock programs</li>
+        <li>Custom packaging solutions</li>
+      </ul>
+    </section>
+
+    <section class="specifications">
+      <h2>Product Documentation</h2>
+      <p>Access our current product specifications:</p>
+      <ul>
+        <li><a href="specs/FS_Firewood SDS_2020.pdf" target="_blank">Firewood Specifications</a></li>
+        <li><a href="specs/FS_Firestarter SDS_2020.pdf" target="_blank">Firestarter Specifications</a></li>
+        <li><a href="specs/FS_Sell Sheet_CW-DC--20RDW  _1JAN20.pdf" target="_blank">Pizza Wood Specifications</a></li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <p><a href="contact.html">Contact Us</a> | <a href="about.html">About</a></p>
+    <p class="copyright">© 2025 Premium Wood Products. All rights reserved.</p>
+  </footer>
+</body>
+</html>

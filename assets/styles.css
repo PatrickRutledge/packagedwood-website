@@ -1,0 +1,393 @@
+/* Base styles */
+body {
+  font-family: 'Segoe UI', system-ui, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f9f9f9;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Header and Logo styles */
+header {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 0.15rem 2rem;
+  background: #fff;
+  position: relative;
+  justify-content: space-between;
+  height: 60px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+/* About page styles */
+.about-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1rem 2rem;
+}
+
+.page-title {
+  text-align: right;
+  padding: 1rem 2rem;
+  margin: 0;
+  color: #333;
+  font-size: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.about-content section {
+  margin-bottom: 2rem;
+  background: #fff;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.about-content h1 {
+  display: none;
+}
+
+.about-content h2 {
+  color: #444;
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+  border-bottom: 2px solid #eee;
+  padding-bottom: 0.5rem;
+}
+
+.about-content h3 {
+  color: #555;
+  font-size: 1.4rem;
+  margin: 1.5rem 0 1rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.about-content h3::before {
+  font-family: system-ui;
+  font-size: 1.2rem;
+  margin-right: 0.5rem;
+}
+
+/* Icons for business terms sections */
+.about-content h3::before {
+  display: inline-block;
+  width: 1.5rem;
+  text-align: center;
+}
+
+/* Pricing & Terms Icons */
+.icon-pricing-terms::before { content: "💲"; }
+.icon-willcall::before { content: "📦"; }
+.icon-delivery::before { content: "🚚"; }
+.icon-pricing::before { content: "💰"; }
+
+/* Shipping Icons */
+.icon-ups::before { content: "📮"; }
+.icon-freight::before { content: "🚛"; }
+.icon-program::before { content: "ℹ️"; }
+
+/* Payment Icons */
+.icon-billing::before { content: "💳"; }
+.icon-payment::before { content: "📅"; }
+.icon-pastdue::before { content: "⚠️"; }
+
+/* Returns & Warranty Icons */
+.icon-returns::before { content: "↩️"; }
+.icon-warranty::before { content: "✔️"; }
+
+.vision-mission {
+  text-align: center;
+}
+
+.vision-mission h2 {
+  border-bottom: none;
+}
+
+.values ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.values li {
+  padding: 0.5rem 0;
+  position: relative;
+  padding-left: 1.5rem;
+}
+
+.values li:before {
+  content: "•";
+  position: absolute;
+  left: 0;
+  color: #666;
+}
+
+.logo {
+  flex-shrink: 0;
+  margin-left: 0.5rem;
+  width: 180px; /* Match the logo max-height */
+}
+
+.header-logo {
+  max-height: 180px;
+  width: auto;
+}
+
+.header-text h1 {
+  margin-top: 0;
+  margin-bottom: 0.15rem;
+  font-size: 1.75rem;
+}
+
+.header-text p {
+  margin: 0;
+  font-size: 1rem;
+}
+
+.header-text {
+  flex-grow: 1;
+  padding-right: 180px; /* Offset the logo width to center the text */
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* Layout */
+main, footer {
+  padding: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+header {
+  text-align: center;
+  background: #fff;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  padding: 2rem 1rem;
+}
+
+/* Navigation */
+nav {
+  text-align: center;
+  padding: 1rem;
+  background: #fff;
+  border-bottom: 1px solid #eee;
+}
+
+nav a {
+  color: #333;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  margin: 0 0.5rem;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: #0066cc;
+}
+
+/* Product Grid */
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+  padding: 2rem 0;
+}
+
+.product-card {
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  padding: 1.5rem;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.product-card:hover {
+  transform: translateY(-5px);
+}
+
+.product-card img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 4px;
+  margin-bottom: 1rem;
+}
+
+.product-card h2 {
+  color: #222;
+  margin: 1rem 0;
+}
+
+.product-card p {
+  color: #666;
+  margin-bottom: 1.5rem;
+}
+
+/* Buttons */
+.cta-button {
+  display: inline-block;
+  padding: 0.8rem 1.5rem;
+  background: #0066cc;
+  color: white;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: background 0.3s ease;
+}
+
+.cta-button:hover {
+  background: #0052a3;
+}
+
+/* Forms */
+form {
+  max-width: 500px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  background: white;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+label {
+  margin-bottom: 0.5rem;
+  color: #555;
+}
+
+input, textarea {
+  margin-bottom: 1rem;
+  padding: 0.8rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+button {
+  padding: 0.8rem;
+  background: #0066cc;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background: #0052a3;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 2rem;
+  background: #fff;
+  border-top: 1px solid #eee;
+}
+
+footer a {
+  color: #333;
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: #0066cc;
+}
+
+.copyright {
+  color: #666;
+  font-size: 0.9rem;
+  margin-top: 1rem;
+}
+
+/* About page styles */
+.about-section {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.about-section h2 {
+  color: #222;
+  margin-top: 2rem;
+  border-bottom: 2px solid #0066cc;
+  padding-bottom: 0.5rem;
+}
+
+.about-section ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.about-section ul li {
+  margin: 1rem 0;
+  padding-left: 1.5rem;
+  position: relative;
+}
+
+.about-section ul li:before {
+  content: "•";
+  color: #0066cc;
+  font-weight: bold;
+  position: absolute;
+  left: 0;
+}
+
+.specifications {
+  margin-top: 2rem;
+  padding: 2rem;
+  background: #f5f5f5;
+  border-radius: 8px;
+}
+
+.specifications h2 {
+  color: #222;
+  margin-bottom: 1rem;
+}
+
+.specifications ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.specifications li {
+  margin: 0.5rem 0;
+}
+
+.specifications a {
+  color: #0066cc;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  transition: color 0.3s ease;
+}
+
+.specifications a:hover {
+  color: #0052a3;
+  text-decoration: underline;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .product-grid {
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1rem;
+  }
+  
+  header, main, footer {
+    padding: 1rem;
+  }
+  
+  .about-section {
+    padding: 1rem;
+  }
+}
